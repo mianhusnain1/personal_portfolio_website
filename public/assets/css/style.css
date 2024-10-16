@@ -353,7 +353,7 @@ header .navbar ul li a:hover {
 }
 .about_text {
   text-align: justify;
-  font-size: 20;
+  font-size: 30;
 }
 .about .row {
   display: flex;
@@ -362,6 +362,7 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   padding: 4rem;
 }
+
 .about .row .image {
   text-align: center;
   flex: 1 1 35rem;
@@ -816,12 +817,14 @@ header .navbar ul li a:hover {
   margin-top: 30px;
   text-align: justify; /* Improve line spacing */
 }
+
+
 .titles {
   font-size: 25px; /* Font size for description */
   color: #ffffff;
   font-weight: bold; /* Medium gray for paragraph text */
   line-height: 1.5;
-  margin-bottom: 30px;
+  
   margin-top: 30px;
   text-align: justify; /* Improve line spacing */
 }
@@ -839,7 +842,6 @@ header .navbar ul li a:hover {
   font-size: 18px; /* Font size for description */
   color: #abbfff; /* Medium gray for paragraph text */
   line-height: 1.5;
- 
   text-align: justify; /* Improve line spacing */
 }
 
@@ -858,6 +860,27 @@ ul {
   font-size: 17px; /* Font size for list items */
   color: #cdd8ff;
   padding-left: 20px; /* Medium gray for list items */
+}
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  .subtitles {
+    font-size: 15px; /* Decrease font size by 5px */
+  }
+  
+  .titles {
+    font-size: 20px; /* Decrease font size by 5px */
+  }
+  
+  .feathead {
+    font-size: 17px; /* Decrease font size by 5px */
+  }
+  
+  .details {
+    font-size: 13px; /* Decrease font size by 5px */
+  }
+  
+  .feat {
+    font-size: 12px; /* Decrease font size by 5px */
+  }
 }
 
 /* work section ends */
