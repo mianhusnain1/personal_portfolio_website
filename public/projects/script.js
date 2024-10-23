@@ -21,11 +21,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Projects | Portfolio Mian Husnain ";
-            $("#favicon").attr("href", "/assets/images/Profile.jpg");
+            $("#favicon").attr("href", "/assets/images/DP.jpg");
         }
         else {
             document.title = "Portfolio";
-            $("#favicon").attr("href", "/assets/images/Profile.jpg");
+            $("#favicon").attr("href", "/assets/images/DP.jpg");
         }
     });
 

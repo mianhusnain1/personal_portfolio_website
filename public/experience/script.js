@@ -70,6 +70,6 @@ function(){
     }
     else {
         document.title = "Portfolio";
-        $("#favicon").attr("href","/assets/images/Profile.jpg");
+        $("#favicon").attr("href","/assets/images/DP.jpg");
     }
 });
